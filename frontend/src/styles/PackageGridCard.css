@@ -1,0 +1,37 @@
+.packageGridCardContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.packageGridCardImage{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+    position: relative;
+}
+
+.packageGridCardImage:hover{
+    transform:scale(1.04);
+}
+
+.packageGridCardName{
+    position:absolute;
+    bottom: 6px;
+    left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.packageGridCardDays{
+    position:absolute;
+    bottom:-15px;
+    left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}

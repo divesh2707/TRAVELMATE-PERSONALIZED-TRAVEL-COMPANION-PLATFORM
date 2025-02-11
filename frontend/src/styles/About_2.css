@@ -1,0 +1,38 @@
+.about_2 {
+    background-color: #f4f1ed;
+    height: 77vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: Left (text) is 2fr, right (image) is 1fr */
+    grid-template-rows: auto auto; /* Adjust rows based on content size */
+    column-gap: 100px;
+    row-gap: 40px;
+    padding: 80px; /* Padding around the container */
+  }
+  
+  .about-heading {
+    font-family: 'Catchy Mager';
+    grid-column: 1 / 2; /* Occupy the first column */
+    grid-row: 1 / 2; /* Place in the first row */
+    font-size: 80px;
+    color: #623e2a;
+    margin: 0;
+  }
+  
+  .about-para {
+    font-family: 'Catchy Mager';
+    grid-column: 1 / 2; /* Occupy the first column */
+    grid-row: 2 / 3; /* Place in the second row */
+    font-size: 25px;
+    line-height: 1.5;
+    color: #623e2a;
+    margin: 0;
+  }
+  
+  .about-image {
+    grid-column: 2 / 3; /* Occupy the second column */
+    grid-row: 1 / 3; /* Span both rows */
+    width: 100%;
+    height: 80vh;
+    object-fit: cover; /* Ensures the image looks good within its container */
+  }
+  

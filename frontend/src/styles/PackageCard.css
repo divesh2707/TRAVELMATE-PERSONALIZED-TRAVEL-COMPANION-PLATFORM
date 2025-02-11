@@ -1,0 +1,112 @@
+.package-card {
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(145deg, #f9f9f9, #eaeaea);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+.package-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.8);
+}
+
+.package-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.4s ease;
+    position: relative;
+}
+
+.package-card:hover .package-image {
+    transform: scale(1.1);
+}
+
+.city-name {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.days {
+    position: absolute;
+    top: 220px;
+    right: 10px;
+    background-color: #343a40;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.days:hover {
+    background-color: #001f3f;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+.iconandtextwrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.iconandtextwrap:hover {
+    color: #001f3f;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    background-color: #f7f7f7;
+    border-top: 1px solid #eee;
+}
+
+.description {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-right: auto;
+    max-width: 200px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+}

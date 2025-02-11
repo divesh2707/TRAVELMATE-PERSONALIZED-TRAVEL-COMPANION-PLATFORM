@@ -1,0 +1,46 @@
+.right{
+    position: sticky;
+    top: 20px; /* Adjusts how far it sticks from the top of the viewport */
+    width: 1050px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   border-left: #000000;
+   
+}
+
+.heading-right{
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+
+.captions-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(243, 235, 235, 0.5);
+    padding: 10px;
+    margin: 10px;
+    gap:10px;
+    transition: transform 0.4s ease;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(56, 54, 54, 0.4);
+}
+
+.caption-item-right {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
+.captions-right:hover {
+    transform: translateY(-10px) scale(1.01);
+}

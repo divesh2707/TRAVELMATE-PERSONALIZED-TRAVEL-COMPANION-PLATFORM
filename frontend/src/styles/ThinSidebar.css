@@ -1,0 +1,76 @@
+.Thin-sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 73vh;
+    /* background: rgba(255, 255, 255); */
+    color: #000000;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    padding: 20px;
+    /* z-index: -1; */
+    border: 1px solid #ccc;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* box-shadow: 10px 10px 20px rgba(31, 30, 30, 0.5), -10px -10px 20px rgba(19, 18, 18, 0.8); */
+}
+
+
+.Thin-sidebar-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+.Thin-sidebar ul {
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.Thin-sidebar ul li {
+    margin: 50px 0;
+    
+}
+
+.Thin-sidebar ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Exp{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.exp-li{
+    cursor: pointer;
+}
+
+.exp-li:hover{
+    color:#2e37e5;
+}
+
+
+.exp-li:hover .Exp {
+    color: #2e37e5; /* Apply hover color to .Exp when parent is hovered */
+}
+
+.Thin-sidebar ul li a:hover {
+    color:#2e37e5;
+}
+
+
+.text{
+    margin-left: 10px;
+}
+
+

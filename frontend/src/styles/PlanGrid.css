@@ -1,0 +1,46 @@
+.plangrid{
+    margin: 60px 120px 30px 120px;
+}
+
+.plangrid-h3{
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+
+.plangrid-p{
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+.plangridContainer{
+    height:490px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 1.5fr 1.5fr 2fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.plangriditem1{
+    grid-column: 1 / span 2;
+    grid-row: 1 ;
+}
+.plangriditem2{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
+.plangriditem3{
+    grid-column: 4 / span 2;
+    grid-row: 1 ;
+}
+.plangriditem4{
+    grid-column: 1 / span 1;
+    grid-row: 2 ;
+}
+.plangriditem5{
+    grid-column: 2 / span 1;
+    grid-row: 2 ;
+}
+.plangriditem6{
+    grid-column: 4 / span 2;
+    grid-row: 2 ;
+}

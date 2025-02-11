@@ -1,0 +1,12 @@
+.learnButton{
+    background-color: white;
+    color: #623e2a;
+    font-size: 20px;
+    font-family: 'Coco Gothic';
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding:10px 50px;
+    margin-top: 80px;
+    border:none;
+    cursor: pointer;
+}

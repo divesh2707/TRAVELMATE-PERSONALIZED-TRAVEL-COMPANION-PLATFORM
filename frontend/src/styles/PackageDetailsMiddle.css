@@ -1,0 +1,30 @@
+/* Package Details Page CSS */
+
+.package-details {
+    padding: 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin-left: 80px;
+  }
+  
+  
+  
+  .places-section{
+    margin-bottom: 30px;
+  }
+  
+  .places-section h2, .hotel-section h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #111;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+
+ 
+  
+  
+  
+  
+  
+  

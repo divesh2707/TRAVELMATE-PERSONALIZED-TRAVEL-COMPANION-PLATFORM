@@ -1,0 +1,89 @@
+.PackageDetailsdividation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh; /* Ensure full viewport height */
+    background-color: #ffffff;
+}
+
+.package-details-topback{
+  position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    height: 220px;
+    background-position: center;  /* Centers the image within the container */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    color: #ffffff;
+    text-align: center;
+    z-index: 1000;
+}
+
+.package-details-heading {
+  -webkit-text-stroke: 0.4px black;
+  font-size: 100px;
+  padding-top: 50px;
+  }
+
+
+.places-section {
+    flex: 3; /* Takes most of the space */
+    padding-right: 20px;
+}
+
+.bill-section-wrapper {
+    flex: 1; /* Takes remaining space */
+    padding-left: 20px;
+    height: auto; /* Allow content height */
+    overflow: visible; /* Ensure sticky can work */
+}
+
+
+.customize-button-container {
+  position: fixed; /* Fixed to the viewport */
+  bottom: 35px; /* Distance from the bottom */
+  right: 113px; /* Distance from the right */
+}
+
+.save-cancel{
+  display: flex;
+  gap:10px;
+}
+
+.package-detail-save-button {
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #001eff, #00066e);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 20px;
+}
+
+.package-detail-cancel-button {
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  /* background-image: linear-gradient(to right, rgb(255, 111, 0) , rgb(231, 101, 3)); */
+  background: linear-gradient(135deg, #496785, #233240);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 20px;
+}
+
+
+.package-detail-cancel-button:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+
+.package-detail-save-button:hover {
+  transform: translateY(-5px) scale(1.02);
+}

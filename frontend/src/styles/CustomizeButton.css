@@ -1,0 +1,18 @@
+.Customize-button {
+    display: flex;
+    gap: 10px;
+    color: white; /* White text color */
+    padding: 12px 45px; /* Add some padding for size */
+    background-image: linear-gradient(to right, blue , rgb(201, 34, 62));
+    border: none; /* Remove border */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size for better visibility */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .Customize-button:hover {
+    transform: translateY(-10px) scale(1.02);
+  }
