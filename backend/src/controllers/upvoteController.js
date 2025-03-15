@@ -1,4 +1,4 @@
-import { checkIfUpvoted, addUpvote, incrementUpvotes, removeUpvote, decrementUpvotes, getLikesCount } from '../models/upvoteModel.js';
+import { checkIfUpvoted, addUpvote, incrementUpvotes, removeUpvote, decrementUpvotes, getLikesCount } from '../models/upVoteModel.js';
 
 export const upvoteController = async (req, res) => {
     try {
