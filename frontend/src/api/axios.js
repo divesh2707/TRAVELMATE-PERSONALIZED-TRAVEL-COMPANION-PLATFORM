@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/api', // Base URL of your backend
+    baseURL: 'https://travelmate-personalized-travel-companion.onrender.com/api', // Base URL of your backend
     headers: {
         'Content-Type': 'application/json',
     },
