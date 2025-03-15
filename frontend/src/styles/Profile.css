@@ -1,0 +1,22 @@
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    gap:100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-left{
+    flex:1;
+}
+
+.profile-body{
+    flex: 7.5;
+}
+
+hr {
+    width: 90%;  /* Adjust width as needed */
+    height: 1.5px; /* Thickness of the line */
+    background-color: #ccc; /* Color of the line */
+    border: none; /* Removes default border */
+    margin-left: 60px;
+}

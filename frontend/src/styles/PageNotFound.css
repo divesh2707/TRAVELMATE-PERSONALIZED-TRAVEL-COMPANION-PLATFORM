@@ -1,0 +1,25 @@
+.PageNotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 100px, 150px, 100px, 150px;
+    padding-top: 100px;
+}
+
+.PageNotFound div h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.PageNotFound div p{
+    font-size: 25px;
+    width: 550px;
+    margin-left: 17px;
+    color: #333;
+}
+
+.PageNotFound img{
+    height: 500px;
+    
+}

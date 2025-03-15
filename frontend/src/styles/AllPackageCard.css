@@ -1,0 +1,71 @@
+.all-package-card{
+    height: 250px;
+    width: 333.33px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.all-package-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.all-package-card h3{
+    position: absolute;
+    top:160px;
+    left: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.all-package-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.all-package-card-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 190px;
+    left: 230px;
+    cursor: pointer;
+    color: rgb(3, 17, 57);
+    transition: transform 0.3s ease-in-out,
+}
+
+.all-package-card-delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    height: 40px;
+    width: 40px;
+    top: 190px;
+    left: 280px;
+    cursor: pointer;
+    color: rgb(3, 17, 57);
+    transition: transform 0.3s ease-in-out,
+    
+}
+
+.all-package-card-edit:hover {
+    transform: scale(1.05);
+    background-color: #ddd;
+}
+
+.all-package-card-delete:hover {
+    transform: scale(1.05);
+    background-color: #ddd;
+}

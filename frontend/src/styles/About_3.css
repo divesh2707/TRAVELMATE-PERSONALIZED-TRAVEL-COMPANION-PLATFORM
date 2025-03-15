@@ -1,0 +1,37 @@
+.about-3{
+background-color: #f4f1ed;
+height: 92vh;
+text-align: center;
+}
+
+.about3-heading{
+    font-family: 'Catchy Mager', sans-serif;
+    color: #623e2a;
+    font-size: 80px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+
+/* .about3-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 40px; 
+    left: 450px;
+    width: 40%;
+    height: 7px;
+    background: linear-gradient(90deg, #623e2a, #c5ae93, #623e2a); 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    animation: gradientMove 10s linear infinite;
+   
+} */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 0px;
+}

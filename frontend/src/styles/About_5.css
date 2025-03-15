@@ -1,0 +1,36 @@
+.about_5{
+    background-image: url("../images/about_5.jpg");
+    background-size: cover;   /* Ensures the image covers the entire container */
+    background-position: center;  /* Centers the image within the container */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    height: 100vh; /* Adjust height as needed */
+    color: white; /* Apply color to text inside .about_1 */
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    position: relative;
+}
+
+.about5-heading{
+    font-family: 'Catchy Mager';
+    font-size: 73px;
+    padding-top: 110px;
+}
+
+.captions-container {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    flex-wrap: wrap; /* Optional, to handle responsiveness */
+
+}
+
+.caption-item {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    width: 350px;
+    text-align: left;
+    margin-top: 150px;   
+}
+

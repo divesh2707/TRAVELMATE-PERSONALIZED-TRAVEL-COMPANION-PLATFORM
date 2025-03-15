@@ -1,0 +1,34 @@
+.heading{
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    /* padding: 20px ; */
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.submit{
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(13, 209, 209) , purple);
+    padding: 10px 95px;
+    cursor: pointer;
+}
+
+.toggle{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.auth-forget{
+    border: none;
+    background-color: #ffffff;
+    color:#515151;
+    cursor: pointer;
+    margin-top: 16px;
+}
+

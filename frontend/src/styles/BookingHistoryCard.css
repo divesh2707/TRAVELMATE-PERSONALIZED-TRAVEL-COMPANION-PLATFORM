@@ -1,0 +1,165 @@
+/* Booking History Container */
+.booking-history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Booking History Card */
+  .booking-history-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-left: 5px solid #ff7f50;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    max-width: 1100px;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .booking-history-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Booking Image */
+  .booking-history-image {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Booking Details */
+  .booking-history-item {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+  }
+  
+  /* Customized Label */
+  .booking-history-customized {
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0% 0%, 15% 50%, 0% 100%, 100% 100%, 85% 50%, 100% 0%);
+    transform: rotate(-30deg);
+  }
+  
+  /* Header */
+  .booking-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-history-header h3 {
+    font-size: 33px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  
+  .booking-history-date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Status */
+  .booking-status {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px 0;
+  }
+  
+  .booking-status.pending {
+    background: #ffcc00;
+    color: #333;
+  }
+  
+  .booking-status.completed {
+    background: #27ae60;
+    color: white;
+  }
+
+  .booking-status.cancelled {
+    background: #ff2200;
+    color: #ffffff;
+  }
+  
+  /* Details Section */
+  .booking-history-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  
+  .booking-history-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:14px;
+    margin-top: 10px;
+  }
+  
+  .booking-history-section p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Price */
+  .booking-history-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 15px;
+  }
+  
+  /* Empty Message */
+  .booking-history-empty {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .cancel-booking-button{
+    padding: 8px 25px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: none;
+    position: absolute;
+    top:-15px;
+    right:-10px;
+    cursor: pointer;
+  }

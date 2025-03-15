@@ -1,0 +1,68 @@
+.profile-blog-card {
+    width: 650px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-blog-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.profile-blog-content {
+    padding: 0px 10px;
+}
+
+.profile-blog-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-blog-footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+    padding:10px;
+    font-size: 14px;
+}
+
+.profile-blog-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    gap:10px;
+}
+
+.profile-blog-header img{
+    height: 24px; /* Adjust size */
+    width: 24px;  /* Adjust size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular frame properly */
+    object-position: center;
+}
+
+.profile-profile-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-username {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}

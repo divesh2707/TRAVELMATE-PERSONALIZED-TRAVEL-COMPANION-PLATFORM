@@ -1,0 +1,19 @@
+.Features{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:60px;
+    align-content: center;
+    margin: 30px 120px 90px 120px;
+}
+
+.Features-h3{
+    font-size: 35px;
+    margin: 70px 120px 3px 120px;
+}
+
+.Features-p{
+    margin: 3px 120px 40px 120px;
+    font-size: 18px;
+  
+}

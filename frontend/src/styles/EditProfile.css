@@ -1,0 +1,427 @@
+.editprofile-form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+    
+  }
+
+  .edit-profile-forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+
+  .editprofile-form-group label {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .editprofile-form-group input {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 620px;
+  }
+
+  .editprofile-formgroupicon{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .success-message {
+    color: green;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Fades in */
+.fade-in {
+    opacity: 1;
+}
+
+/* Fades out after delay */
+.fade-out {
+    opacity: 0;
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.success-message-2{
+    color: green;
+    font-weight: bold;
+}
+
+.loading-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: spin 1s linear infinite;
+    color: #888;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.change-email-update{
+    background-color: rgb(20, 79, 217);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 490px;
+}
+
+.change-email-save{
+    background-color: green;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+}
+
+.change-email-cancel{
+    background-color: grey;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+}
+
+.change-email-save-cancel{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-right: 350px;
+}
+
+.change-email-button-message{
+    position: relative;
+}
+
+.change-email-message{
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    
+}
+
+.change-username-update{
+    background-color: rgb(20, 79, 217);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 460px;
+}
+
+.change-username-save{
+    background-color: green;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+}
+
+.change-username-cancel{
+    background-color: grey;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+}
+
+.change-username-save-cancel{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-right: 350px;
+}
+
+.change-username-button-message{
+    position: relative;
+}
+
+.change-username-message{
+    position: absolute;
+    top: -10px;
+    left: 380px;
+    
+}
+
+.changePassword-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:30px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+.change-password-button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* margin-right:420px; */
+    
+}
+
+.ProfileChangePhoto{
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.editprofile-passwordform-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+  }
+
+  .edit-profile-passwordforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+
+  .editprofile-passwordform-group label {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .editprofile-passwordform-group input {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 620px;
+  }
+
+  .editprofile-passwordformgroupicon{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.error-message-password{
+    color: red;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-top: 0px;
+}
+
+.message-edit-profile{
+    position: absolute;
+    top:510px;
+    right: 400px;
+    color: green;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1 !important;
+}
+
+.fade-out {
+    opacity: 0 !important;
+}
+
+.change-password-forget{
+    color: #444;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.forget-password-container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: #f5f7fa;
+}
+
+.forget-password-box-profile {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    
+}
+
+.forget-password-box-profile h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.reset-text-profile {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.reset-instructions-profile {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.back-button-profile-forget {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
+
+.profile-header-icon img{
+    height: 150px; /* Adjust size */
+    width: 150px;  /* Adjust size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular frame properly */
+    object-position: center;
+    border: 1px solid #030f1d; /* Add a border with your desired color */
+    padding: 2px; /* Optional: Adds spacing inside the border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.ProfileChangePhoto img {
+    height: 150px; /* Adjust size */
+    width: 150px;  /* Adjust size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular frame properly */
+    object-position: center;
+    border: 1px solid #030f1d; /* Add a border with your desired color */
+    padding: 2px; /* Optional: Adds spacing inside the border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.upload-btn-profile-photo-add{
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.upload-btn-profile-photo-add:hover{
+    background-color: #b6b6b6;
+}
+
+.upload-btn-profile-photo-update{
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-btn-profile-photo-update:hover{
+    background-color: #b6b6b6;
+}
+
+.profile-photo-after-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    margin-left: 60px;
+}
+
+.profile-photo-remove{
+    background-color: #d3d3d3;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width:150px;
+    font-size: 14px;
+}
+
+.profile-photo-remove:hover{
+    background-color: #b6b6b6;
+}

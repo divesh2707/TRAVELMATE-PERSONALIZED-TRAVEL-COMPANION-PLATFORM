@@ -1,0 +1,113 @@
+/* General Page Styling */
+
+.Citymain-content {
+  height: auto;
+  margin-top: 165px;
+}
+
+.AddCity-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px auto 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
+  .CityHeading{
+    font-size: 27px;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 30px 420px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .CityParagraph{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 420px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+  }
+
+  .Cityform-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+  }
+  
+
+  .Cityform-group label {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .Cityform-group input {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 620px;
+  }
+
+  .Cityformgroupicon{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Cityfileicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    margin-left: 420px;
+  }
+
+.Cityhidden-input {
+    display: none; /* Hides the default file input */
+}
+
+.Cityfile-label {
+    padding: 12px 45px;
+    background-color: #000000;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.city-buttons{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    margin-left: 770px;
+}
+
+.Citynext{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Cityback{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+  

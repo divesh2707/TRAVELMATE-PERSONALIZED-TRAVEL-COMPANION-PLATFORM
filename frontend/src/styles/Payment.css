@@ -1,0 +1,137 @@
+.paymentpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 13px 150px;
+    gap:0px;
+}
+
+.payment-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.payment-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.payment-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.payment-content ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.payment-content ul li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: #444;
+    display: flex;
+    align-items: center;
+}
+
+.payment-content ul li::before {
+    content: "✔";
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+
+
+.booking-form-package-details {
+    flex:1;
+  }
+
+  .payment-confirm-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.payment-confirm-button:hover {
+    background-color: #388E3C;
+}
+
+.confirm-booking-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+}
+
+.confirm-booking-back{
+    background-color: #7d7878;
+    color: white;
+    padding: 12px 55px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+
+/* Success Message */
+.booking-payment-success {
+    background: white;
+    padding: 0px;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.booking-payment-success h2 {
+    color: #28a745;
+}
+
+.booking-payment-home-button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.booking-payment-home-button:hover {
+    background: #218838;
+}
+
+.booking-payment-note {
+    background: #fff3cd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #856404;
+}

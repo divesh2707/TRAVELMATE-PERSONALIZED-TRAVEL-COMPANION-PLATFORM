@@ -1,0 +1,112 @@
+.booking-history-filters-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.booking-history-filter-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.booking-history-filter-input {
+    margin-left: 15px;
+    width: 390px;
+    padding: 12px 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.booking-history-filter-group {
+    margin-bottom: 15px;
+}
+
+.booking-history-filter-label {
+    font-weight: bold;
+    color: #333030;
+    display: flex;
+    gap:6px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.booking-history-filter-options {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    
+}
+
+.booking-history-filter-slider {
+    margin-left: 25px;
+    width: 440px;
+    cursor: pointer;
+}
+
+.booking-history-date-range {
+    display: flex;
+    justify-content: space-around;
+}
+
+.booking-history-date-range input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: text;
+    outline: none;
+    text-align: center;
+}
+
+.booking-history-apply-button {
+    width: 130px;
+    padding: 12px 30px;
+    background: #05034b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.booking-history-buttons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.booking-history-cancel-button {
+    width: 130px;
+    padding: 12px 30px;
+    background: #9d0606;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.booking-history-remove-button {
+    width: 180px;
+    padding: 12px 20px;
+    background: #605e5e;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+

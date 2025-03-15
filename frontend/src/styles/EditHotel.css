@@ -1,0 +1,206 @@
+/* General Page Styling */
+
+body{
+    height:auto;
+  }
+
+  .edit-hotel-whole{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .edit-hotel-carousel{
+    flex:1;
+    
+    margin-top: 0px;
+  }
+  
+  .Edithotelmain-content {
+    flex:1;
+    height: auto;
+    margin-top: 230px;
+  }
+  
+  .EditHotel-headers{
+    position: fixed;
+      top: 131px;  /* Adjust based on your header height */
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: #ffffff;
+  }
+  
+  .EditAddHotel-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin: 0px auto 0px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      font-size: 18px;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  
+    .EditHotelformsection{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 60px;
+    }
+  
+    .EditHotelformsection1{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .EditHotelformsection2{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .EditHotelHeading{
+      font-size: 27px;
+      padding: 0;
+      padding-bottom: 8px;
+      margin: 30px 150px 0px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+  
+    .EditHotelParagraph{
+      font-size: 18px;
+      margin: 0;
+      margin-left: 150px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin-bottom: 20px;
+    }
+  
+    .EditHotelform-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap:5px;
+    }
+    
+  
+    .EditHotelform-group label {
+      margin-top: 20px;
+      margin-left: 35px;
+      font-size: 20px;
+      color: #000000;
+    }
+    
+    .EditHotelform-group input {
+      outline: 0;
+      border: none;
+      background: none;
+      border: 1px solid #888;
+      padding: 12px 20px;
+      font-size: 16px;
+      margin-left: 10px;
+      width: 250px;
+    }
+  
+    .EditHotelform-group textarea {
+      outline: 0;
+      border: none;
+      background: none;
+      border: 1px solid #888;
+      padding: 12px 20px;
+      font-size: 16px;
+      margin-left: 10px;
+      width: 250px;
+      height: 210px;
+      resize:none;
+    }
+  
+    .EditHotelformgroupicon{
+      display: flex;
+      align-items: center;
+    }
+    
+    .EditHotelfileicon{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap:10px;
+      margin-left: 00px;
+      margin-top: 30px;
+    }
+  
+  .EditHotelhidden-input {
+      display: none; /* Hides the default file input */
+  }
+  
+  .EditHotelfile-label {
+      padding: 12px 45px;
+      background-color: #000000;
+      border-radius: 30px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+  }
+  
+  .Editspecific-hotel-buttons{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
+  .Editdelete-hotel{
+      cursor: pointer;
+  }
+  
+  .Edithotel-buttons{
+      display: flex;
+      margin-top: 50px;
+      gap: 25px;
+      margin-right: 430px;
+      margin-bottom: 10px;
+  }
+  
+  .EditHotelnext{
+      border-radius: 30px;
+      padding: 12px 45px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      width: 190px;
+  }
+  
+  .EditHotelback{
+      border-radius: 30px;
+      padding: 12px 45px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      width: 190px;
+  }
+  
+  .Editadd-hotel{
+      border-radius: 30px;
+      padding: 12px 45px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      width: 190px;
+  }
+  
+  .EditHotelSkip{
+      border-radius: 30px;
+      padding: 12px 45px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      width: 190px;
+  }
+    

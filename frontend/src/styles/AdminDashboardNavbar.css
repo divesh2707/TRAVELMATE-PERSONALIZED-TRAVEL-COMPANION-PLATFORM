@@ -1,0 +1,35 @@
+.admin-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.admin-navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+.admin-navbar button{
+    display: flex;
+    gap: 10px;
+    padding: 12px 45px; /* Add some padding for size */
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(233, 225, 225));
+    color: black;
+    border: none; /* Remove border */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size for better visibility */
+    cursor: pointer;
+    margin-left: 270px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.admin-navbar button:hover {
+    transform: scale(1.1);
+  }

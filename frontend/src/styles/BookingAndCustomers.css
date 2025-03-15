@@ -1,0 +1,166 @@
+.booking-and-customers-container {
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 30px auto;
+}
+
+.booking-and-customers-title {
+    margin-left: 65px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.booking-and-customers-list {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.booking-and-customers-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 243.2px;
+    height: 387.2px;
+    background: white;
+    gap:5px;
+     position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-image: url("../images/10587746_4471199-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.booking-and-customers-company{
+    font-weight:bold;
+    letter-spacing: 2px;
+    color: white;
+    position: absolute;
+    top:15px;
+    left:25px;
+    font-size: 12px;
+}
+
+
+.booking-and-customers-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.booking-and-customers-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #e7e7e7;
+    margin-top: 70px;
+}
+
+.booking-and-customers-card-line{
+    position: absolute;
+    width: 4px;
+    height: 115px;
+    background-color: #e7e7e7;
+    top:60px;
+    left:45px;
+}
+
+.booking-and-customers-card h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #3485d5;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.booking-and-customers-user-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.booking-and-customers-user-data-p {
+    margin: 0;
+    font-size: 14px;
+    color: #283f60;
+}
+
+.booking-and-customers-empty {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.booking-and-customers-toggle-whole-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 260px;
+    left: 1180px;
+}
+
+.booking-and-customers-toggle-container {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.booking-and-customers-toggle-circle {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.booking-and-customers-toggle-text {
+    position: absolute;
+    left:35px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.booking-and-customers-toggle-container.filter-on {
+    background-color: #4CAF50;
+}
+
+.booking-and-customers-toggle-container.filter-on .booking-and-customers-toggle-circle {
+    transform: translateX(30px);
+}
+
+.booking-and-customers-toggle-container.filter-on .booking-and-customers-toggle-text{
+    left:10px;
+}
+
+.booking-and-customers-toggle-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #454545;
+}
+

@@ -1,0 +1,66 @@
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 75px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.profile-header-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+    align-items: center;
+}
+
+.profile-header-icon h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.profile-header-heading1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profile-header-heading2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    margin-left: 40px;
+    
+}
+
+.profile-header-heading2 h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.profile-header-heading1 button{
+    border-radius: 8px;
+    background-color: #e4e4e4;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.profile-header-heading1 button:hover{
+    background-color: #cbcbcb;
+}
+
+.profile-top-headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+}

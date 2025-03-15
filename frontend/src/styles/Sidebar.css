@@ -1,0 +1,72 @@
+.sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 95vh;
+    background: rgb(0,0,0,0.65);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(31, 30, 30, 0.5), -10px -10px 20px rgba(19, 18, 18, 0.8);
+}
+
+.sidebar-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.sidebar ul {
+    list-style: none;
+    
+}
+
+.sidebar ul li {
+    margin: 45px 0;
+    
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    cursor: pointer;
+  
+}
+
+.sidebar ul li a:hover {
+    color: rgb(93, 212, 242);
+}
+
+
+.text{
+    margin-left: 10px;
+}
+
+.share{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(17, 196, 232) , pink);
+    padding: 10px 22px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 10px 10px 20px rgba(43, 40, 40, 0.2), -10px -10px 20px rgba(99, 95, 95, 0.4);
+    margin-top: 50px;
+}
+
+
+.share:hover{
+    transform: translateY(-10px) scale(1.02);
+}
+

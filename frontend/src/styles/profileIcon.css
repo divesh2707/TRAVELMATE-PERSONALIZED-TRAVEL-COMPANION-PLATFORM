@@ -1,0 +1,92 @@
+/* Container for the profile icon */
+.profile-container {
+    position: relative;
+    display: inline-block;
+   
+}
+
+/* Profile icon and name */
+.profile-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0; /* Remove unnecessary padding */
+    margin: 0; /* Remove unnecessary margin */
+    gap: 10px;
+}
+
+.profile-icon img{
+    height: 25px; /* Adjust size */
+    width: 25px;  /* Adjust size */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular frame properly */
+    object-position: center;
+}
+
+.profile-icon .name {
+    font-family: Georgia, serif;
+    margin:0 ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1; /* Ensure proper vertical alignment */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 35px; /* Adjust based on your icon size */
+    left: -30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px; /* Add top and bottom padding */
+    width: 140px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+/* Dropdown item wrapper */
+.dropdown-item {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    padding: 12px 10px; /* Add padding for clickable area */
+    cursor: pointer;
+    border-bottom: 1px solid #ddd; /* Separator line */
+}
+
+.dropdown-item:last-child {
+    border-bottom: none; /* Remove separator for the last item */
+}
+
+/* Ensure the link takes up the entire width of the item */
+.dropdown-text {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    width: 100%; /* Make the link take up the full width of the dropdown item */
+    text-decoration: none; /* Remove underline */
+    color: rgb(0, 0, 0); /* Make the link text black */
+    margin-left: 10px;
+}
+
+/* Align icon and text equally */
+.dropdown-text .drop-text2 {
+    margin-left: 10px; /* Space between icon and text */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+
+/* Hover effect for dropdown item */
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Highlight background on hover */
+}
+
+/* Show the dropdown only when the icon is clicked */
+.profile-icon:focus-within .dropdown-menu {
+    display: block;
+}

@@ -1,0 +1,174 @@
+/* BlogModel.css */
+.uploadmodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+  }
+  
+
+  
+/* Fade-in animation for modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+  .uploadmodal-container {
+    background: #fff;
+    color:black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .uploadmodal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+ .upload-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom:30px;
+  }
+  
+  .file-upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .upload-file {
+    display: none; /* Hide the default file input */
+  }
+  
+  
+  .upload-button {
+    display: inline-block;
+    background-color: #007bff; /* Blue button background */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 35px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background-color: #000000;
+    transition: background-color 0.3s;
+  }
+  
+
+  .image-preview-section {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 400px;
+  }
+
+  .top-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .remove-photo-button{
+    background: none;
+    color: #10128b;
+    border: none;
+    margin-bottom: 10px;
+    margin-top:0;
+    margin-right: 45px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+
+
+  .share-button {
+    background: none;
+    color: #10128b;
+    border: none;
+    margin-left: 44px;
+    margin-bottom: 10px;
+    margin-top:0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .share-button:hover{
+    color:#0e0f5e
+  }
+  
+  .top-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight:bold;
+  }
+  
+  .upload-caption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 95%;
+    height: 20px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #888;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    resize: none;
+    overflow: hidden; /* Prevent scrollbars */
+    line-height: 1.4; /* For consistent spacing between lines */
+    word-wrap: break-word; /* Allow long words to break */
+  }
+
+  .upload-caption:focus {
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid #888; 
+  }
+  
+  .caption-error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 2px;
+  }
+  

@@ -1,0 +1,72 @@
+.profile-blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap:4px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.profile-blog-item {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.profile-blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.profile-blog-item:hover img {
+    filter: brightness(50%);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* Overlay appears only on hover */
+.profile-blog-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.profile-blog-item:hover .profile-blog-overlay {
+    opacity: 1;
+}
+
+.profile-blog-info {
+    display: flex;
+    gap:40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-blog-infos{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.profile-exp{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin: 10px 585px;
+    font-size: 13px;
+}
+

@@ -1,0 +1,106 @@
+.packmain-content{
+    height:auto;
+    margin-top: 160px;
+}
+
+.AddPackage-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px auto 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
+  .PackageHeading{
+    font-size: 27px;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 30px 420px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .PackageParagraph{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 420px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+  }
+
+  .Packageform-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+  }
+  
+
+  .Packageform-group label {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .Packageform-group input {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 620px;
+  }
+
+  .Packageformgroupicon{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+
+.Package-buttons{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    margin-left: 780px;
+}
+
+.Packageform-group textarea {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 620px;
+    height: 100px;
+    resize:none;
+  }
+
+
+.Packagenext{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+}
+
+.Packageback{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+}
+  

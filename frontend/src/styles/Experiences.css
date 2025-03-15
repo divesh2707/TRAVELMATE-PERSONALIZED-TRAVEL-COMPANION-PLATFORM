@@ -1,0 +1,23 @@
+html, body {
+    height: 100%; /* Ensure the body and html take full height */
+    margin: 0; /* Remove default margins */
+  }
+
+.main{
+    display: flex;
+    min-height: 100%; /* Full height of the viewport */
+    width: 100%;
+    background-image: url(../images/hgtu_9.jpg);
+    /* background-color: black; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.blog-contents {
+    flex-grow: 1;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    margin-left: 300px;
+    padding-left: 0;
+}

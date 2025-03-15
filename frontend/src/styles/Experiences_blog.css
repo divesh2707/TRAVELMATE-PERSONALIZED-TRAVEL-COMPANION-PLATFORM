@@ -1,0 +1,57 @@
+.blog-list {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.all-caught-up {
+    font-size: 50px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+    animation:  bounce 4s infinite ; /* Add bounce animation */
+}
+
+.Bringing {
+    font-size: 50px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 150px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Up and Down Bouncing Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+}
+
+
+

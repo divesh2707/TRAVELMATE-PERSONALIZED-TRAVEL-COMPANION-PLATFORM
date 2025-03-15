@@ -1,0 +1,47 @@
+.Profile-sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 225px;
+    height: 95vh;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border: none;
+    border-right: 2px solid #ccc;
+}
+
+
+.Profile-sidebar-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+
+
+.Profile-sidebar ul {
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.Profile-sidebar ul li {
+    margin: 65px 10px;
+    
+}
+
+.Profile-sidebar ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Profile-text{
+    margin-left: 10px;
+}
+
+

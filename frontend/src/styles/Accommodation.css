@@ -1,0 +1,107 @@
+.hotel-card {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  gap: 15px;
+  align-items: flex-start; /* Align items at the top */
+}
+
+.hotel-card .carousel {
+  flex: 0 0 333.33px; /* Fixed size for the carousel */
+}
+
+.packagehoteltext {
+  flex: 1; /* Allow the text section to take the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hotel-card h4 {
+  font-size: 24px; /* Adjusted size for large headings */
+  margin: 25px 0 10px 0; /* Space between heading and text */
+  color: #000000;
+  word-wrap: break-word; /* Allow long words to break */
+}
+
+.hotel-card p {
+  text-align: justify;
+  font-size: 15px;
+  color: #222;
+  line-height: 1.5; /* Improve readability */
+}
+
+
+/* Custom dropdown button */
+.Acustom-dropdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 20px;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  width: 100px;
+ 
+}
+
+.Acustom-dropdown i {
+  transition: transform 0.3s ease;
+}
+
+.Acustom-dropdown .arrow {
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease; /* Smooth arrow rotation */
+}
+
+.Acustom-dropdown .arrow.open {
+  transform: rotate(225deg); /* Rotate arrow when dropdown is open */
+}
+
+/* List of options */
+.Acustom-dropdown-list {
+  background-color: #fff;
+  position: absolute;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+  z-index: 10;
+  width: 150px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual options */
+.Acustom-dropdown-list li {
+  padding: 10px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding-left: 30px;
+
+}
+
+/* Hover effect for options */
+.Acustom-dropdown-list li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Prevent default browser styles */
+.Acustom-dropdown-list li:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+
+

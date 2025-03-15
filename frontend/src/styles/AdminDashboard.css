@@ -1,0 +1,71 @@
+.admin-dashboard{
+    height: 180px;
+    background-image: url('../images/wide-shot-aegean-sea-coast-with-blue-transparent-water-greenery-around-pamorama-view-from-drone-greece.jpg');
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.admin-dashboard h3{
+    position: absolute;
+    top:35px;
+    left:600px;
+    font-size: 50px;
+}
+
+.admin-dashboard p{
+    position: absolute;
+    top:120px;
+    left:470px;
+    font-size: 30px;
+}
+
+
+.chart-dashboard-container {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+.chart-dashboard-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e294a;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+
+.chart-dashboard-flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 30px;
+    
+}
+
+.chart-container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.chart-container:hover {
+    transform: translateY(-5px);
+}
+
+.chart-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+

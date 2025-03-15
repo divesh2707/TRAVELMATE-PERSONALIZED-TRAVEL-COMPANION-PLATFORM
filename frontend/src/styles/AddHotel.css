@@ -1,0 +1,190 @@
+/* General Page Styling */
+
+body{
+  height:auto;
+}
+
+.hotelmain-content {
+  height: auto;
+  margin-top: 230px;
+}
+
+.Hotel-headers{
+  position: fixed;
+    top: 131px;  /* Adjust based on your header height */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
+.AddHotel-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .Hotelformsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .Hotelformsection1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Hotelformsection2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .HotelHeading{
+    font-size: 27px;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 30px 380px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .HotelParagraph{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 380px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+  }
+
+  .Hotelform-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+  }
+  
+
+  .Hotelform-group label {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .Hotelform-group input {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 250px;
+  }
+
+  .Hotelform-group textarea {
+    outline: 0;
+    border: none;
+    background: none;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 250px;
+    height: 210px;
+    resize:none;
+  }
+
+  .Hotelformgroupicon{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Hotelfileicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    margin-left: 00px;
+    margin-top: 30px;
+  }
+
+.Hotelhidden-input {
+    display: none; /* Hides the default file input */
+}
+
+.Hotelfile-label {
+    padding: 12px 45px;
+    background-color: #000000;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.specific-hotel-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.delete-hotel{
+    cursor: pointer;
+}
+
+.hotel-buttons{
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.Hotelnext{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 190px;
+}
+
+.Hotelback{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 190px;
+}
+
+.add-hotel{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 190px;
+}
+
+.HotelSkip{
+    border-radius: 30px;
+    padding: 12px 45px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 190px;
+}
+  
