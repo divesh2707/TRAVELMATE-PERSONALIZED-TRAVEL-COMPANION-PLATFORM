@@ -7,12 +7,21 @@ import {
   } from '../models/bookingModel.js';
   import nodemailer from "nodemailer";
   import { markPackageAsBooked } from "../models/customizedPackageModel.js";
+
   
   // Create a new booking
   export const addBooking = async (req, res) => {
     try {
       const { custom_package_id } = req.body;
       const bookingData = req.body;
+        const formatDate = (date) => {
+            const [day, month, year] = date.split('-');
+            return `${year}-${month}-${day}`;
+        };
+
+        bookingData.start_date = formatDate(bookingData.start_date);
+        bookingData.end_date = formatDate(bookingData.end_date);
+
       const newBooking = await createBooking(bookingData);
       await markPackageAsBooked(custom_package_id);
       await sendBookingConfirmationEmail(newBooking);
